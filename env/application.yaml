@@ -1,0 +1,12 @@
+server:
+  app_port: "8088"
+  app_host: "localhost"
+
+database:
+  user: "postgres"
+  password: "Suriyaa@123"
+  host: "localhost"
+  port: 5432
+  dbname: "PALAJAY"
+  sslmode: "disable"
+  is_migrate: true
