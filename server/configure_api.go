@@ -35,7 +35,7 @@ func configureRoutes(api handlers.API, s *server) {
 	s.router.DELETE("/product/:id", WrapHandler(api.DeleteProduct))
 
 	// Cart routes
-	s.router.POST("/cart", WrapHandler(api.AddItemToCart))
+	// s.router.POST("/cart", WrapHandler(api.AddItemToCart))
 
 	s.router.GET("/", WrapHandler(api.ServeHTTP))
 }
